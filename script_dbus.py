@@ -9,4 +9,4 @@ notifications = bus.get("org.freedesktop.Notifications", # Bus name
 
 current_time = datetime.now().strftime("%H:%M:%S")
 
-notifications.Notify('test', 0, 'dialog-information', str(current_time) , "Текущее системное врмея", [], {}, 5000)
+notifications.Notify('test', 0, 'dialog-information', str(current_time) , "Текущее системное время", [], {}, 5000)
